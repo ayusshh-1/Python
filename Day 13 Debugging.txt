@@ -1,0 +1,43 @@
+Day 13 of 100 Days of Code
+
+Today, I focused on learning and practicing debugging in Python. Here's a detailed explanation of what I learned:
+
+1. range(a, b) – End is NOT included
+In Python, the range() function generates a sequence of numbers starting from 'a' up to (but not including) 'b'.
+
+Example:
+for i in range(1, 5):
+    print(i)
+
+Output:
+1
+2
+3
+4
+
+Here, 5 is not included.
+
+2. randint(a, b) – Both ends ARE included
+The randint(a, b) function from the random module returns a random integer between 'a' and 'b', including both.
+
+Example:
+import random
+print(random.randint(1, 5))
+
+This can print any number from 1 to 5.
+
+3. List indexing starts at 0
+Python lists use zero-based indexing.
+
+Example:
+my_list = ['apple', 'banana', 'cherry']
+print(my_list[0])  # apple
+print(my_list[1])  # banana
+
+4. Using Python Tutor
+Python Tutor (https://pythontutor.com) is a website that helps visualize Python code step-by-step. It's useful for understanding how variables change, loops execute, and functions behave.
+
+5. Problem Solving
+I applied these concepts in practice problems and got better at debugging and writing clean Python code.
+
+It was a productive and insightful day!
