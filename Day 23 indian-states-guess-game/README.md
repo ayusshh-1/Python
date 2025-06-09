@@ -4,10 +4,15 @@ This project is a Python-based game using the turtle graphics module where users
 🗂️ Project Structure
 
 day 22 Indian-State-Game/
+
 ├── india_map.gif                  # Background image of India map
+
 ├── Indian_States_Coordinates.csv # CSV containing coordinates of states
+
 ├── learn_missed_state.csv        # (Auto-generated) List of missed states
+
 └── main.py                       # Main game logic
+
 ▶️ How to Play
 Run main.py.
 
