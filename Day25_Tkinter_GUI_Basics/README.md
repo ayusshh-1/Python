@@ -13,7 +13,7 @@ Today I built a basic interactive GUI using Python's `tkinter` library.
 - When they click the button, the label updates to show what they typed
 
 ## Files
-- `gui_app.py`: Main GUI code
+- Mile to Kilometer Conversion -> main.py ->contains a code
 - `Day_25_Tkinter_GUI_Summary.txt`: Summary of widgets and code examples from Day 25
 
 ---
