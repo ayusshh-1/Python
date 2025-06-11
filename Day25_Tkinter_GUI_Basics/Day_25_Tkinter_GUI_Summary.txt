@@ -1,0 +1,88 @@
+
+100 Days of Code - Day 25
+==========================
+
+Topic: Tkinter GUI in Python
+
+Today I learned about the basics of creating graphical user interfaces using the tkinter module in Python.
+
+Covered Topics:
+---------------
+
+1. **Creating a Window**
+-------------------------
+```python
+from tkinter import *
+
+window = Tk()
+window.title("My GUI App")
+window.minsize(width=300, height=200)
+window.mainloop()
+```
+
+2. **Label**
+------------
+Used to display text.
+```python
+label = Label(text="Hello, Tkinter!", font=("Arial", 14))
+label.pack()
+```
+
+3. **Entry**
+------------
+Used to take input from the user.
+```python
+entry = Entry(width=30)
+entry.pack()
+entry.insert(0, "Enter your name")
+```
+
+4. **Button**
+-------------
+Used to trigger a function when clicked.
+```python
+def on_click():
+    print("Button clicked!")
+
+button = Button(text="Click Me", command=on_click)
+button.pack()
+```
+
+5. **Checkbutton**
+------------------
+Used to create a checkbox.
+```python
+def checkbutton_used():
+    print(checked_state.get())
+
+checked_state = IntVar()
+checkbutton = Checkbutton(text="Is On?", variable=checked_state, command=checkbutton_used)
+checkbutton.pack()
+```
+
+6. **Radiobutton**
+------------------
+Used to select one option from a list.
+```python
+def radio_used():
+    print(radio_state.get())
+
+radio_state = IntVar()
+radiobutton1 = Radiobutton(text="Option 1", value=1, variable=radio_state, command=radio_used)
+radiobutton2 = Radiobutton(text="Option 2", value=2, variable=radio_state, command=radio_used)
+radiobutton1.pack()
+radiobutton2.pack()
+```
+
+7. **Padding and Widget Size**
+------------------------------
+Used to adjust the layout and spacing of widgets.
+```python
+label = Label(text="Padding Example")
+label.pack(padx=20, pady=10)
+```
+
+Summary:
+--------
+Today was an exciting day! I created my first basic GUI app using tkinter and learned how to interact with users using labels, entries, buttons, checkbuttons, and radiobuttons. I also learned about widget sizing and padding for layout management.
+
