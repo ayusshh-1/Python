@@ -34,10 +34,15 @@ A simple **Pomodoro Timer** built using Python's Tkinter library. This applicati
 pomodoro-timer/
 │
 ├── main.py             # Main application script
+
 ├── tomato.png          # Pomodoro (tomato) image
+
 ├── screenshot1.png     # Study session screenshot
+
 ├── screenshot2.png     # Reset timer screenshot
+
 └── README.md           # This file
+
 📚 Pomodoro Technique
 The Pomodoro Technique is a time management method developed by Francesco Cirillo. It uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks.
 
