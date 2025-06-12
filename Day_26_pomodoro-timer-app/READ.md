@@ -32,6 +32,7 @@ A simple **Pomodoro Timer** built using Python's Tkinter library. This applicati
 
 📁 File Structure
 pomodoro-timer/
+
 │
 ├── main.py             # Main application script
 
@@ -49,4 +50,4 @@ The Pomodoro Technique is a time management method developed by Francesco Cirill
 Work with the time you have, not against it.
 
 🧠 Credits
-Developed by Ayush Yadav
+Developed by Ayush R Yadav
