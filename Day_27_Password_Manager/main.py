@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
 import pyperclip
-counter=0
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
     # Password Generator Project
@@ -27,7 +26,6 @@ def generate_password():
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def add():
     global counter
-    counter+=1
     website_data= website_entry.get()
     email_data = email_entry.get()
     password_data = password_entry.get()
@@ -37,7 +35,7 @@ def add():
         check = messagebox.askokcancel(title="Save the Details" , message= f"Are u sure u want to save these details ? \n Website: {website_data} \n Email: {email_data} \n Password: {password_data}")
         if check :
             with open("data.txt","a") as data:
-                data.write(f"{counter}  Website: {website_data} | Email: {email_data} | Password: {password_data} \n\n")
+                data.write(f"Website: {website_data} | Email: {email_data} | Password: {password_data} \n\n")
             website_entry.delete(0,END)
             password_entry.delete(0,END)
         else:
