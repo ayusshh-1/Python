@@ -4,7 +4,6 @@ from tkinter import messagebox
 import pyperclip
 import json
 from json.decoder import JSONDecodeError
-counter=0
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
     # Password Generator Project
@@ -30,7 +29,6 @@ def generate_password():
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def add():
     global counter
-    counter+=1
     website_data= website_entry.get()
     email_data = email_entry.get()
     password_data = password_entry.get()
