@@ -1,0 +1,64 @@
+
+100 Days of Code - Day 28
+Topic: Exception Handling in Python (try, except, else, finally)
+
+--------------------------------------------
+🔹 try:
+The block of code to be tested for errors.
+
+🔹 except:
+The block of code that will execute if an error occurs in the try block.
+
+🔹 else:
+The block that runs if no errors were raised in the try block.
+
+🔹 finally:
+The block that always runs, regardless of whether an error occurred or not.
+
+--------------------------------------------
+✅ Example 1: Basic try-except
+
+try:
+    num = int(input("Enter a number: "))
+    result = 10 / num
+    print("Result:", result)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+
+--------------------------------------------
+✅ Example 2: try-except-else
+
+try:
+    value = int(input("Enter a number: "))
+except ValueError:
+    print("Invalid input! Please enter a number.")
+else:
+    print(f"Valid input! You entered: {value}")
+
+--------------------------------------------
+✅ Example 3: try-except-finally
+
+try:
+    file = open("sample.txt", "r")
+    content = file.read()
+    print(content)
+except FileNotFoundError:
+    print("File not found!")
+finally:
+    print("Execution complete.")
+
+--------------------------------------------
+✅ Example 4: Full try-except-else-finally
+
+try:
+    num = int(input("Enter a number: "))
+    result = 100 / num
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+except ValueError:
+    print("Invalid input! Please enter a number.")
+else:
+    print("Result is:", result)
+finally:
+    print("This block always runs.")
+
