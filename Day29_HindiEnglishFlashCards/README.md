@@ -32,14 +32,23 @@ Respond with Buttons:
 
 🗃️ Project Structure
 Day29 Capstone Project- Flash Card/
+
 ├── Data/
+
 │   ├── Hindi_Words.csv           # Dataset with Hindi-English word pairs
+
 │   └── not_known_words.txt       # Stores words the user didn’t know (should be cleared before each run)
+
 ├── images/
+
 │   ├── card_back.png             # Flash card back image
+
 │   ├── card_front.png            # Flash card front image
+
+
 │   ├── right.png                 # Tick button (Known)
 │   └── wrong.png                 # Cross button (Don't Know)
+
 └── main.py                       # Main Python application
 
 💡 Requirements
