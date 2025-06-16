@@ -39,7 +39,6 @@ Replace my_email and my_password in the script with your email and app password.
 2. Add Birthdays
 Update birthdays.csv file with entries in this format:
 name,email,year,month,day
-xyz,xyz@gmail.com,year,mont,day
 📝 Make sure there's no extra space and file is saved in UTF-8.
 
 ☁️ Deploy on PythonAnywhere
