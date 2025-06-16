@@ -17,10 +17,15 @@ Deployable on a cloud server like PythonAnywhere
 📁 Project Structure
 📦 birthday-wisher
 ┣ 📜 main.py
+
 ┣ 📄 birthdays.csv
+
 ┣ 📂 letter_templates/
+
 ┃ ┣ 📄 letter_1.txt
+
 ┃ ┣ 📄 letter_2.txt
+
 ┃ ┗ 📄 letter_3.txt
 
 📝 How to Use
