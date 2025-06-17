@@ -7,14 +7,23 @@ On Day 31 of my **#100DaysOfCode** challenge, I worked with **APIs** using Pytho
 ## 📁 Folder Structure
 Day 33 API/
 ├── ISS_Tracker_With_Email/ # ISS position + email alert if overhead during night
+
 │ └── main.py
+
 │
+
 ├── kanye-quotes-start/ # GUI app to fetch random Kanye West quotes
+
 │ ├── background.png
+
 │ ├── kanye.png
+
 │ └── main.py
+
 │
+
 └── Sunrise_Sunset_Time/ # Fetches sunrise and sunset data for a location
+
 |   |── main.py
 
 
