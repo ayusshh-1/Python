@@ -20,13 +20,20 @@ Uses OOP principles with organized class-based design
 Day 34 Trivia API Quiz App/
 │
 ├── images/
+
 │   ├── true.png         # Image shown when the user selects 'True'
+
 │   └── false.png        # Image shown when the user selects 'False'
+
 │
 ├── data.py              # Handles loading quiz data from the API
+
 ├── main.py              # Entry point for the app
+
 ├── question_model.py    # Defines the Question class
+
 ├── quiz_brain.py        # Contains quiz logic (checking answers, tracking score)
+
 └── ui.py                # Handles the GUI with Tkinter
 
 🔧 Requirements
