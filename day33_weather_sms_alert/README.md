@@ -19,6 +19,8 @@ Install dependencies:
 ```bash
 pip install requests twilio
 
+
+
 🧾 How It Works
 Calls OpenWeatherMap's forecast API with your location (latitude & longitude).
 
